@@ -24,7 +24,7 @@ public class texteditor1 extends JFrame {
 	private JFileChooser dialog = new JFileChooser(System.getProperty("user.dir"));
 	private String currentFile = "Untitled";
 	private boolean changed = false;
-	int fontsize=16;
+	int fontsize=12;
 	int fontstyle=Font.PLAIN;
 	String fontfamily="Times Roman";
 	UndoManager manager;
